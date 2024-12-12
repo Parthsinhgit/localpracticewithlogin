@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Loginapp</string>
+    <string name="title">Home</string>
+    <string name="title_dashboard">dashboard</string>
+    <string name="title_notification">Notification</string>
+
+    <string-array name="State">
+        <item> Maharashtra </item>
+        <item> Gujarat </item>
+    </string-array>
+
+    <string-array name="shipper">
+        <item> Shipper 1</item>
+        <item> Shipper 2</item>
+    </string-array>
+    <string-array name="DishName">
+        <item> Thepla </item>
+        <item> Dal Rice </item>
+        <item> Dhokla </item>
+        <item> Sabji Roti </item>
+        <item> Kadhi Khichdi </item>
+        <item> Puri Bhaji </item>
+        <item> Dal Dhokdi </item>
+        <item> Undhiyu </item>
+        <item> Aloo Paratha </item>
+        <item> Patra </item>
+        <item> Khandavi </item>
+        <item> Gulab Jamun </item>
+        <item> SevTomato Bhakhri </item>
+        <item> Shrikhand </item>
+        <item> Palak Paneer </item>
+        <item> Khulcha </item>
+        <item> MAkki di roti </item>
+        <item> Gobi paratha </item>
+        <item> Biryani </item>
+        <item> Rajma </item>
+        <item> Bhindi Fry </item>
+        <item> Dum Biryani </item>
+        <item> Rumali Roti </item>
+        <item> Dal makhani </item>
+        <item> Samosa </item>
+        <item> Kachori </item>
+        <item> Menduwada </item>
+        <item> Pulav </item>
+        <item> PavBhaji </item>
+        <item> MisalPav </item>
+        <item> Mix Vegetables </item>
+        <item> Muffins </item>
+        <item> Dalfry Jirarice </item>
+        <item> Bengali Sweet </item>
+        <item> PuranPoli </item>
+        <item> Egg curry </item>
+        <item> Pomfret Fish </item>
+        <item> Egg Bhurji </item>
+        <item> Dum Chicken </item>
+        <item> Hydrabadi Chicken Biryani </item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rs">Rs.</string>
+    <string name="add_food_details">Add Food Details</string>
+</resources>

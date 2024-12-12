@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_add">
+
+    <!-- TODO: Update blank fragment layout -->
+<!--layout set kato hato pan nathi thato-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:background="@color/orange"
+            android:gravity="center"
+            android:text="@string/add_food_details"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <ImageView
+            android:id="@+id/foodimage"
+            android:layout_width="180dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="115dp"
+            android:src="@drawable/baseline_add_photo_alternate_24"
+            android:scaleType="fitXY"/>
+
+        <EditText
+            android:id="@+id/edtfoodname"
+            android:layout_width="322dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/search_bg"
+            android:gravity="center"
+            android:hint="Enter Name"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="23dp" />
+
+        <EditText
+            android:id="@+id/edtfoodprice"
+            android:layout_width="322dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/search_bg"
+            android:gravity="center"
+            android:hint="Enter Price "
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="23dp" />
+
+        <EditText
+            android:id="@+id/edtfooddes"
+            android:layout_width="322dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/search_bg"
+            android:gravity="center"
+            android:hint="Enter Description"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="23dp" />
+
+
+        <Button
+            android:id="@+id/btnadd"
+            android:layout_width="322dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/orange"
+            android:gravity="center"
+            android:text="Add Food"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+<!--            app:cornerRadius="20dp"-->
+
+
+    </LinearLayout>
+</FrameLayout>
